@@ -5,13 +5,13 @@ A fully functional ecommerce website.
 
 1. Setup Project
 
-• Create new project 'ecommerce_website'
-• Create new app (core)
-• Install Apps in Settings.py
-• Configure Templates
-• Configure Static and Media Files in settings and Urls.py
-• Create a new view, urls and template then runserver.
-• Configure template inheritance and partials
+• Create new project 'ecommerce_website' ✅
+• Create new app (core) ✅
+• Install Apps in Settings.py ✅
+• Configure Templates ✅
+• Configure Static and Media Files in settings and Urls.py ✅
+• Create a new view, urls and template then runserver. ✅
+• Configure template inheritance and partials ✅
 
 2. Configure Admin Page, Superuser and Jazzmin
 
