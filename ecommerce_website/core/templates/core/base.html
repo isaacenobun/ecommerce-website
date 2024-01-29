@@ -1,7 +1,25 @@
-{% include 'core/partials/_header.html' %}
+{% load static %}
 
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'core/partials/_head.html' %}
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            {% include 'core/partials/_header.html' %}
+
+            {% block content %}
+        
+            {% endblock content %}
+
+        {% include 'core/partials/_footer.html' %}
+        </div>
+    </div>
+</body>
+        
+</html>
+
+
     
-{% endblock content %}
-    
-{% include 'core/partials/_footer.html' %}

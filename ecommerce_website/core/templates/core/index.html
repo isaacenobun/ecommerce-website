@@ -1,8 +1,23 @@
 {% extends 'core/base.html' %}
+{% load static %}
+
 
 {% block content %}
 
-    <p>Hello, welcome to my ecommerce website</p>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give your workout<br>A new style!</h1>
+            <p>Success isn't always about greatness. It's about consistency.<br>Consistent hard work gains success. Greatness will come.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="{% static 'images/image1.png' %}" width="550px">
+        </div>
+    </div>
 
 {% endblock content %}
+
+
+
+
     
