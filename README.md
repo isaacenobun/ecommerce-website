@@ -12,6 +12,7 @@ A fully functional ecommerce website.
 • Configure Static and Media Files in settings and Urls.py ✅
 • Create a new view, urls and template then runserver. ✅
 • Configure template inheritance and partials ✅
+• Build Frontend
 
 2. Configure Admin Page, Superuser and Jazzmin
 

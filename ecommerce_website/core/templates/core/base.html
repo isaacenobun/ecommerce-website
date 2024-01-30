@@ -9,14 +9,34 @@
     <div class="header">
         <div class="container">
             {% include 'core/partials/_header.html' %}
-
-            {% block content %}
-        
-            {% endblock content %}
-
-        {% include 'core/partials/_footer.html' %}
-        </div>
+<!-- -------------------------------------------------------------- -->
+            {% block content1 %}
+            <!-- contains Landing view-->
+            {% endblock content1 %}
+<!-- -------------------------------------------------------------- -->
+        </div>        
     </div>
+
+<!-- -------------------------------------------------------------- -->
+            {% block content2 %}
+            <!-- contains Featured categories -->
+            {% endblock content2 %}
+<!-- -------------------------------------------------------------- -->
+            {% block content3 %}
+            <!-- contains Featured products-->
+            {% endblock content3 %}
+<!-- -------------------------------------------------------------- -->
+            {% block content4 %}
+            <!-- contains Latest products-->
+            {% endblock content4 %}
+<!-- -------------------------------------------------------------- -->
+            {% block content5 %}
+            <!-- contains Offers-->
+            {% endblock content5 %}
+<!-- -------------------------------------------------------------- -->
+                
+
+    {% include 'core/partials/_footer.html' %}
 </body>
         
 </html>
