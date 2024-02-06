@@ -3,15 +3,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>{{title}}</title>
     {% include 'core/partials/_head.html' %}
 </head>
 <body>
-    <div class="header">
+<!-- Index.html -->
+    <div class={{header}}>
         <div class="container">
             {% include 'core/partials/_header.html' %}
 <!-- -------------------------------------------------------------- -->
             {% block content1 %}
-            <!-- contains Landing view-->
+            <!-- contains Landing view -->
             {% endblock content1 %}
 <!-- -------------------------------------------------------------- -->
         </div>        
@@ -23,25 +25,33 @@
             {% endblock content2 %}
 <!-- -------------------------------------------------------------- -->
             {% block content3 %}
-            <!-- contains Featured products-->
+            <!-- contains Featured products -->
             {% endblock content3 %}
 <!-- -------------------------------------------------------------- -->
             {% block content4 %}
-            <!-- contains Latest products-->
+            <!-- contains Latest products -->
             {% endblock content4 %}
 <!-- -------------------------------------------------------------- -->
             {% block content5 %}
-            <!-- contains Offers-->
+            <!-- contains Offers -->
             {% endblock content5 %}
 <!-- -------------------------------------------------------------- -->
             {% block content6 %}
-            <!-- contains Testimonials-->
+            <!-- contains Testimonials -->
             {% endblock content6 %}
 <!-- -------------------------------------------------------------- -->
             {% block content7 %}
-            <!-- contains Testimonials-->
+            <!-- contains Testimonials -->
             {% endblock content7 %}
 <!-- -------------------------------------------------------------- -->
+
+<!-- products.html -->
+    <!-- -------------------------------------------------------------- -->
+            {% block content8 %}
+            <!-- contains Products -->
+            {% endblock content8 %}
+    <!-- -------------------------------------------------------------- -->
+        </div>
 
     {% include 'core/partials/_footer.html' %}
 </body>
