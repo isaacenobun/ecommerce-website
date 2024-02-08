@@ -9,3 +9,7 @@ def home(request):
 def products(request):
     context = {'title': 'Products - RedStore', 'header':'header2'}
     return render(request,'core/products.html',context)
+
+def product(request):
+    context = {'title': 'Product - RedStore', 'header':'header2'}
+    return render(request, 'core/product_details.html', context)
