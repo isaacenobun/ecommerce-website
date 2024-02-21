@@ -1,0 +1,80 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+
+{% block content10 %}
+<!-- Cart -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="{% static 'images/buy-1.jpg' %}" width="80px">
+                        <div>
+                            <p>Red Printed Tshirt</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0" class="inputValue"></td>
+                <td class="subTotal">$0.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="{% static 'images/buy-2.jpg' %}" width="80px">
+                        <div>
+                            <p>Red Printed Tshirt</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0" class="inputValue"></td>
+                <td class="subTotal">$0.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="{% static 'images/buy-3.jpg' %}" width="80px">
+                        <div>
+                            <p>Red Printed Tshirt</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0" class="inputValue"></td>
+                <td class="subTotal">$0.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td id="subTotal-Total">$0.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td id="Tax">$0.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td id="Total">$0.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock content10 %}
+    

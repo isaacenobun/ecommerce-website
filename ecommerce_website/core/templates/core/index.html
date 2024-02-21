@@ -8,7 +8,7 @@
         <div class="col-2">
             <h1>Give your workout<br>A new style!</h1>
             <p>Success isn't always about greatness. It's about consistency.<br>Consistent hard work gains success. Greatness will come.</p>
-            <a href="" class="btn">Explore Now &#8594;</a>
+            <a href="{% url 'products' %}" class="btn">Explore Now &#8594;</a>
         </div>
         <div class="col-2">
             <img src="{% static 'images/image1.png' %}" width="550px">
@@ -46,7 +46,7 @@
     <h2 class="title">Featured products</h2>
     <div class="row">
         <div class="col-4">
-            <img src="{% static 'images/product-1.jpg' %}" width="300px">
+            <a href="{% url 'product' %}"><img src="{% static 'images/product-1.jpg' %}" width="300px"></a>
             <h4>Red Printed T-shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
