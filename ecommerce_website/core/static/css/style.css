@@ -38,6 +38,20 @@ nav ul li a:hover{
     color: #ff523b;
 }
 
+.navbar p{
+    background: #ff523b;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    position: relative;
+    transform: translateX(-10px) translateY(-10px);
+    opacity: 0;
+}
+
 a{
     text-decoration: none;
     color: #555;
