@@ -1,9 +1,9 @@
 # ecommerce-website
-A fully functional ecommerce website.
+I am creating a fully functional ecommerce website. Walk with me.
 
-# Backend Logic and Steps
+# Steps
 
-1. Setup Project
+**1. Setup Project ✅**
 
 • Create new project 'ecommerce_website' ✅
 • Create new app (core) ✅
@@ -12,27 +12,33 @@ A fully functional ecommerce website.
 • Configure Static and Media Files in settings and Urls.py ✅
 • Create a new view, urls and template then runserver. ✅
 • Configure template inheritance and partials ✅
-• Build Frontend
+• Build Frontend ✅
+_Comments_
+_Building the frontend took longer than i expected since it's really not my strongest suite. I followed a YouTube tutorial to create a fancy ecommerce site and i added some Javascript event listeners for a better user experience. N.B. For now the site isn't responsive and so it should only be used on desktop._
 
-2. Configure Admin Page, Superuser and Jazzmin
+**2. Configure Admin Page, Superuser and Jazzmin  ✅** 
 
-• Install Jazzmin (pip install django-jazzmin)
-• Add jazzmin in INSTALLED_APPS
-• Add Jazzmin Config Code in Settings.py
-• Create Superuser
-• Login To Admin Section
+• Install Jazzmin (pip install django-jazzmin) ✅
+• Add jazzmin in INSTALLED_APPS ✅
+• Add Jazzmin Config Code in Settings.py ✅
+• Create Superuser ✅
+• Login To Admin Section ✅
+_Comments_
+_I had never used Jazzmin till this day. Looks way better than the default django dashboard._
 
-3. Custom User Model
+**3. Custom User Model ✅**
 
-• Create new app userauths
-• Install App in settings.py
-• Create custom class User (AbstractUser) : in models.py
-• Add AUTH USER MODEL = 'userauths.User' in settings.py
-• Comment out django.contrib.admin and admin urls in Setting.py
-• Run Makemigrations and Migrate and Uncomments Comments
-• Create New Superuser
-• Register User model In Admin.py
-• Login to admin with email and password
+• Create new app userauths ✅
+• Install App in settings.py ✅
+• Create custom class User (AbstractUser) : in models.py ✅
+• Add AUTH USER MODEL = 'userauths.User' in settings.py ✅
+• Comment out django.contrib.admin and admin urls in Setting.py ✅
+• Run Makemigrations and Migrate and Uncomments Comments ✅
+• Create New Superuser ✅
+• Register User model In Admin.py ✅
+• Login to admin with email and password ✅
+_Comments_
+_Ran into a bit of a problem that gave me a tough time. Inconsistent migration history and some other runtime errors. Resetting the migrations solved it._
 
 4. User Register System
 
