@@ -3,7 +3,7 @@ from django.contrib import admin
 from .models import User
 
 class CustomUserAdmin(admin.ModelAdmin):
-    list_display = ('username', 'email','bio')
+    list_display = ('username', 'email','bio','last_login')
     search_fields = ['username','email']
 
 # Register your models here.

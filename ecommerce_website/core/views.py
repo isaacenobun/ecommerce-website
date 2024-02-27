@@ -17,7 +17,3 @@ def product(request):
 def cart(request):
     context = {'title': 'Cart - RedStore', 'header':'header2'}
     return render(request, 'core/cart.html', context)
-
-def account(request):
-    context = {'title': 'Account - Redstore', 'header':'header2'}
-    return render(request, 'core/account.html', context)

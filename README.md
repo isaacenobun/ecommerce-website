@@ -40,18 +40,21 @@ _I had never used Jazzmin till this day. Looks way better than the default djang
 _Comments_
 _Ran into a bit of a problem that gave me a tough time. Inconsistent migration history and some other runtime errors. Resetting the migrations solved it._
 
-4. User Register System
+4. User Register System ✅
 
-• Create new form class UserRegisterForm (UserCreationForm) : in forms.py
-• Write view to register def RegisterView (request) : user
-• Configure template to show form
-• Login to website from Frontend
+• Create new form class UserRegisterForm (UserCreationForm) : in forms.py ✅
+• Write view to register def RegisterView (request) : user ✅
+• Configure template to show form ✅
+• Login to website from Frontend ✅
+_Comments_
+_Learnt a whole lot here. Adding styling to a django form apparently isn't very direct._
 
 5. User Login System
 
 • Write view to login def LoginView (request) : user
 • Configure template to grab input field
 • Login to website from Frontend
+• Password reset system.
 
 6. User Logout System
 
