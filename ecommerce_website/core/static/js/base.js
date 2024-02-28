@@ -33,8 +33,8 @@ var regForm = document.getElementById('RegForm');
 if (login){
     login.addEventListener('click', function(){
         indicator.style.transform = 'translateX(0px)';
-        loginForm.style.transform = 'translateX(300px)';
-        regForm.style.transform = 'translateX(300px)';
+        loginForm.style.transform = 'translateX(0px)';
+        regForm.style.transform = 'translateX(0px)';
         regForm.style.opacity = '0'
         loginForm.style.opacity = '1'
     });
@@ -43,8 +43,8 @@ if (login){
 if (register){
     register.addEventListener('click', function(){
         indicator.style.transform = 'translateX(100px)';
-        loginForm.style.transform = 'translateX(0)';
-        regForm.style.transform = 'translateX(0)';
+        loginForm.style.transform = 'translateX(300px)';
+        regForm.style.transform = 'translateX(300px)';
         regForm.style.opacity = '1'
         loginForm.style.opacity = '0'
     });

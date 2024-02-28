@@ -9,12 +9,12 @@ class UserRegisterForm(UserCreationForm):
         "placeholder":"Username"
     }))
 
-    email = forms.CharField(widget=forms.TextInput(attrs={
+    email = forms.CharField(widget=forms.EmailInput(attrs={
         "type":"email",
         "placeholder":"Email"
     }))
 
-    password1 = forms.CharField(widget=forms.TextInput(attrs={
+    password1 = forms.CharField(widget=forms.PasswordInput(attrs={
         "type":"password",
         "placeholder":"Password"
     }))

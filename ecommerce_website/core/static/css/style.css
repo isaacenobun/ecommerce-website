@@ -550,12 +550,13 @@ form .btn:focus{
 }
 
 #LoginForm{
-    left: -300px;
-    opacity: 0;
+    left: 0px;
+    opacity: 1;
 }
 
 #RegForm{
-    left: 0;
+    left: -300px;
+    opacity:  0;
 }
 
 form a{
@@ -568,6 +569,6 @@ form a{
     background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(100px);
+    transform: translateX(0px);
     transition: transform 0.5s;
 }

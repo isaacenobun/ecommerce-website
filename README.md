@@ -49,18 +49,23 @@ _Ran into a bit of a problem that gave me a tough time. Inconsistent migration h
 _Comments_
 _Learnt a whole lot here. Adding styling to a django form apparently isn't very direct._
 
-5. User Login System
+5. User Login System ✅
 
-• Write view to login def LoginView (request) : user
-• Configure template to grab input field
-• Login to website from Frontend
+• Write view to login def LoginView (request) : user ✅
+
+• Configure template to grab input field ✅
+• Login to website from Frontend ✅
 • Password reset system.
+_Comments_
+_Worked with django's built-in authentication system made to simplify the whole user login system._
 
-6. User Logout System
+6. User Logout System ✅
 
-• Write view def LogoutView (request) : to Logout a user
-• Configure URL
-• Test the Feature
+• Write view def LogoutView (request) : to Logout a user ✅
+• Configure URL ✅
+• Test the Feature ✅
+_Comments_
+_Took about 10 mins to implement. Onto the next_
 
 7. Alerts In Django
 

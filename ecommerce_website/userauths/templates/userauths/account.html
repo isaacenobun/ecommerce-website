@@ -17,10 +17,11 @@
                         <span id="register">Register</span>
                         <hr id="Indicator">
                     </div>
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Username">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Login</button>
+                    <form method="POST" id="LoginForm">
+                        {% csrf_token %}
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="password" name="password" placeholder="Password">
+                        <button type="submit" class="btn" name="login">Login</button>
                         <a href="">Forgot password</a>
                     </form>
                     
@@ -29,7 +30,7 @@
                         {{form.username}}
                         {{form.email}}
                         {{form.password1}}
-                        <button type="submit" class="btn">Register</button>
+                        <button type="submit" class="btn" name="register">Register</button>
                         <a href="">Forgot password</a>
                     </form>
                 </div>
